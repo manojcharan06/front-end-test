@@ -6,7 +6,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 const GlassmorphismCard = () => {
   return (
     <div className="w-[500px] h-[600px] relative flex items-end">
-      <img className="absolute z-10 -top-30" src={plant2} alt="" />
+      <img className="absolute z-10 -top-30 scale-80" src={plant2} alt="" />
       <div
         className="w-full h-[90%] bg-white/10 backdrop-blur-md border rounded-[70px] pl-15 relative"
         style={{

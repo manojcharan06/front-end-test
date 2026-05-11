@@ -4,6 +4,7 @@ import TrendingSection from "../home/TrendingSection";
 import ProductGrid from "../home/ProductGrid";
 import mainBackground from "../../assets/plants/mainBackground.png";
 import Navbar from "./Navbar";
+import ReviewSection from "../home/ReviewSection";
 
 const Container = () => {
   return (
@@ -22,6 +23,7 @@ const Container = () => {
       </div>
       <div className="px-20 text-white">
         <ProductGrid />
+        <ReviewSection />
       </div>
     </>
   );
