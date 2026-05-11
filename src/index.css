@@ -8,3 +8,7 @@ body {
 .indie-font {
   font-family: 'Indie Flower', cursive;
 }
+
+.gradient {
+  background: linear-gradient(to right, #FBD300, #FFFFFF);
+}
