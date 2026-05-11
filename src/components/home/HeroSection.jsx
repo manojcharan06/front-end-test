@@ -8,7 +8,7 @@ const HeroSection = () => {
   return (
     <div className="flex">
       <div className="w-3/4 flex flex-col gap-10">
-        <div className="mt-30 w-3/4 flex flex-col gap-3 items-start">
+        <div className="mt-30 w-4/5 flex flex-col gap-3 items-start">
           <h1 className="text-8xl font-semibold">Earth's Exhale</h1>
           <p className="text-xl text-zinc-400">
             "Earth Exhale" symbolizes the purity and vitality of the Earth's
