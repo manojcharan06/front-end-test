@@ -6,7 +6,7 @@ import AddToCartButton from './AddToCartButton'
 const TrendingCards = ({Data: {title, desc, image, price}, isReverse}) => {
 
   return (
-    <div className={`px-15 py-20 mt-25 mb-15 flex gap-8 justify-center w-full backdrop-blur-lg border-1 rounded-[130px] ${isReverse ? 'flex-row-reverse' : 'flex-row'}`}>
+    <div className={`px-15 py-20 mt-25 mb-15 flex gap-8 justify-center w-full backdrop-blur-lg border border-zinc-400 rounded-[130px] ${isReverse ? 'flex-row-reverse' : 'flex-row'}`}>
         <div className='w-1/2 relative flex items-center'>
             <img className='absolute -top-60' src={image} alt="" />
         </div>

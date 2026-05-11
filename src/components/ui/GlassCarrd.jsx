@@ -7,7 +7,7 @@ const GlassCarrd = ({Products: {title, desc, price, image}}) => {
     <div className="w-[400px] h-[550px] relative flex items-end">
       <img className="absolute z-10 -top-20 scale-80" src={image} alt="" />
       <div
-        className="w-full h-[90%] bg-white/10 backdrop-blur-md border rounded-[70px] px-10 relative"
+        className="w-full h-[90%] bg-white/10 backdrop-blur-md border border-zinc-400 rounded-[70px] px-10 relative"
         style={{
           clipPath:
             "path('M 0 -32 Q 200 70 400 -30 L 400 490 Q 400 540 450 540 L 50 540 Q 0 540 0 490 Z')",

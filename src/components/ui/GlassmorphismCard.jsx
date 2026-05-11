@@ -5,17 +5,18 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const GlassmorphismCard = () => {
   return (
-    <div className="w-[500px] h-[600px] relative flex items-end">
-      <img className="absolute z-10 -top-30 scale-80" src={plant2} alt="" />
+    <div className="w-[500px] h-[600px] relative flex items-end mt-20">
+      <img className="absolute z-10 -top-25 scale-100" src={plant2} alt="" />
       <div
-        className="w-full h-[90%] bg-white/10 backdrop-blur-md border rounded-[70px] pl-15 relative"
+        className="w-full h-[90%] bg-white/10 backdrop-blur-md border border-zinc-400 rounded-[70px] pl-15 relative"
         style={{
           clipPath:
             "path('M 0 -28 Q 250 80 500 -25 L 500 490 Q 500 540 450 540 L 50 540 Q 0 540 0 490 Z')",
         }}
       >
-        <div className="absolute bottom-25 flex items-center justify-between">
-          <div className="flex flex-col items-start gap-1.5">
+        
+        <div className="absolute bottom-20 flex items-center justify-between">
+          <div className="flex flex-col items-start gap-2">
             <p className="text-xl">Indoor Plant</p>
             <h2 className="text-3xl">Aglaonema plant</h2>
             <Button children="Buy Now" />

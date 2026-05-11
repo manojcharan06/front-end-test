@@ -4,7 +4,7 @@ import RatingStars from './RatingStars'
 
 const HeroSectionCard = () => {
   return (
-    <div className='w-md mt-24 bg-white/10 backdrop-blur-md flex flex-col gap-5  rounded-[35px] border py-8 px-10'>
+    <div className='w-md mt-24 bg-white/10 backdrop-blur-md flex flex-col gap-5 rounded-[35px] border border-zinc-400 py-8 px-10'>
         <div className='flex items-center gap-6'>
             <div className='size-12 rounded-full overflow-hidden bg-amber-200'>
                 <img src={user1} alt="" />

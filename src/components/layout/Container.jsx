@@ -5,6 +5,8 @@ import ProductGrid from "../home/ProductGrid";
 import mainBackground from "../../assets/plants/mainBackground.png";
 import Navbar from "./Navbar";
 import ReviewSection from "../home/ReviewSection";
+import OxygenSection from "../home/OxygenSection";
+import Footer from "../home/Footer";
 
 const Container = () => {
   return (
@@ -24,6 +26,8 @@ const Container = () => {
       <div className="px-20 text-white">
         <ProductGrid />
         <ReviewSection />
+        <OxygenSection />
+        <Footer />
       </div>
     </>
   );
