@@ -9,7 +9,7 @@ const ProductGrid = () => {
       <SectionTitle title="Our Top Selling Plants" />
       <div className="flex grid grid-cols-3 gap-15 mt-20">
         {Products.map((item, index) => (
-            <GlassCarrd key={index} Products={item} />
+          <GlassCarrd key={index} Products={item} />
         ))}
       </div>
     </div>

@@ -17,30 +17,45 @@ const Footer = () => {
               FloraVision.
             </Link>
           </div>
-          <p className="text-xl">"From lush indoor greens to vibrant outdoor blooms, our plants are crafted to thrive and elevate your living environment."</p>
+          <p className="text-xl">
+            "From lush indoor greens to vibrant outdoor blooms, our plants are
+            crafted to thrive and elevate your living environment."
+          </p>
         </div>
         <div className="flex gap-10 mt-25 text-xl font-bold">
-            <h4>FB</h4>
-            <h4>TW</h4>
-            <h4>LI</h4>
+          <h4>FB</h4>
+          <h4>TW</h4>
+          <h4>LI</h4>
         </div>
       </div>
       <div className="1/5 flex flex-col gap-7">
         <h2 className="text-2xl font-semibold">Quick Link's</h2>
         <ul className="flex flex-col gap-3">
-            <li className="underline"><Link to={"/home"}>Home</Link></li>
-            <li className="underline"><Link to={"/plants"}>Type's of plant's</Link></li>
-            <li className="underline"><Link to={"/contact"}>Contact</Link></li>
-            <li className="underline"><Link to={"/privacy"}>Privacy</Link></li>
+          <li className="underline">
+            <a href="#home">Home</a>
+          </li>
+          <li className="underline">
+            <a href="#plants">Type's of plant's</a>
+          </li>
+          <li className="underline">
+            <a href="#contact">Contact</a>
+          </li>
+          <li className="underline">
+            <a href="#privacy">Privacy</a>
+          </li>
         </ul>
       </div>
       <div className="flex flex-col justify-between">
         <div className="flex flex-col gap-10">
-            <h3 className="text-xl font-semibold">For Every Update.</h3>
-            <div className="p-1 border-2 rounded-lg">
-                <input className="px-2 outline-none decoration-none" type="email" placeholder="Enter Email" />
-                <Button children='Subscribe' className='bg-white text-[#1A2215]'/>
-            </div>
+          <h3 className="text-xl font-semibold">For Every Update.</h3>
+          <div className="p-1 border-2 rounded-lg">
+            <input
+              className="px-2 outline-none decoration-none"
+              type="email"
+              placeholder="Enter Email"
+            />
+            <Button children="Subscribe" className="bg-white text-[#1A2215]" />
+          </div>
         </div>
         <p className="text-xl ">FloraVision © all right reserve</p>
       </div>

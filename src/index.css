@@ -1,14 +1,26 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Inter:wght@100..900&display=swap");
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  background-color: #1a2215;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
 .indie-font {
-  font-family: 'Indie Flower', cursive;
+  font-family: "Indie Flower", cursive;
 }
 
 .gradient {
-  background: linear-gradient(to right, #FBD300, #FFFFFF);
+  background: linear-gradient(to right, #fbd300, #ffffff);
 }

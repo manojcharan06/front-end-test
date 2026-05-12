@@ -2,7 +2,7 @@ import React from "react";
 import AddToCartButton from "./AddToCartButton";
 import { RiShoppingBag4Line } from "react-icons/ri";
 
-const GlassCarrd = ({Products: {title, desc, price, image}}) => {
+const GlassCarrd = ({ Products: { title, desc, price, image } }) => {
   return (
     <div className="w-[400px] h-[550px] relative flex items-end">
       <img className="absolute z-10 -top-20 scale-80" src={image} alt="" />
@@ -18,7 +18,7 @@ const GlassCarrd = ({Products: {title, desc, price, image}}) => {
           <p className="h-3/5 text-lg flex items-center">{desc}</p>
           <div className="h-1/5 flex justify-between">
             <h3 className="text-3xl">Rs. {price}/-</h3>
-            <AddToCartButton children={<RiShoppingBag4Line/>}/>
+            <AddToCartButton children={<RiShoppingBag4Line />} />
           </div>
         </div>
       </div>

@@ -14,7 +14,6 @@ const GlassmorphismCard = () => {
             "path('M 0 -28 Q 250 80 500 -25 L 500 490 Q 500 540 450 540 L 50 540 Q 0 540 0 490 Z')",
         }}
       >
-        
         <div className="absolute bottom-20 flex items-center justify-between">
           <div className="flex flex-col items-start gap-2">
             <p className="text-xl">Indoor Plant</p>

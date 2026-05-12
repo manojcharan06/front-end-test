@@ -8,39 +8,39 @@ import { IoSearchOutline } from "react-icons/io5";
 
 const Navbar = () => {
   return (
-    <nav className="max-w-7xl mx-auto flex justify-between py-7 text-white items-center">
+    <nav className="max-w-8xl mx-auto flex justify-between py-7 text-white items-center">
       <div className="flex gap-4 items-center">
         <img className="size-12 object-contain" src={plant1} alt="plant" />
-        <Link
-          to="/"
+        <a
+          href="#home"
           className="font-extrabold text-3xl cursor-pointer hover:text-lime-400 transition duration-300"
         >
           FloraVision.
-        </Link>
+        </a>
       </div>
       <ul className="flex gap-10 indie-font font-medium">
         <li>
-          <Link to="/" className="hover:text-lime-400 transition duration-300">
+          <a href="#home" className="hover:text-lime-400 transition duration-300">
             Home
-          </Link>
+          </a>
         </li>
         <li>
-          <Link
-            to="/"
+          <a
+            href="#plants"
             className="hover:text-lime-400 transition duration-300 flex items-center gap-3"
           >
             Plant Type <MdArrowDropDown />
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="/" className="hover:text-lime-400 transition duration-300">
+          <a href="#more" className="hover:text-lime-400 transition duration-300">
             More
-          </Link>
+          </a>
         </li>
         <li>
-          <Link to="/" className="hover:text-lime-400 transition duration-300">
+          <a href="#contact" className="hover:text-lime-400 transition duration-300">
             Contact
-          </Link>
+          </a>
         </li>
       </ul>
       <div className="flex items-center text-2xl gap-10">

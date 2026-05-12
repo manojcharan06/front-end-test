@@ -23,7 +23,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div>
-            <HeroSectionCard />
+          <HeroSectionCard />
         </div>
       </div>
       <div className="flex justify-center">

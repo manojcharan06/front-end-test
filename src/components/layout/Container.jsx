@@ -12,7 +12,8 @@ const Container = () => {
   return (
     <>
       <div
-        className="bg-cover min-h-screen bg-centre bg-no-repeat bg-[#1A2215]"
+        id="home"
+        className="bg-cover h-full bg-center bg-no-repeat"
         style={{
           backgroundImage: `url(${mainBackground})`,
         }}
@@ -24,10 +25,16 @@ const Container = () => {
         </div>
       </div>
       <div className="px-20 text-white">
-        <ProductGrid />
-        <ReviewSection />
-        <OxygenSection />
-        <Footer />
+        <div id="plants">
+          <ProductGrid />
+        </div>
+        <div id="more">
+          <ReviewSection />
+          <OxygenSection />
+        </div>
+        <div id="contact">
+          <Footer />
+        </div>
       </div>
     </>
   );
