@@ -10,12 +10,12 @@ const Footer = () => {
         <div className="pr-20 flex flex-col gap-6">
           <div className="flex gap-4 items-center">
             <img className="size-15 object-contain" src={plant1} alt="plant" />
-            <Link
-              to="/"
+            <a
+              href="#home"
               className="font-extrabold text-4xl cursor-pointer hover:text-lime-400 transition duration-300"
             >
               FloraVision.
-            </Link>
+            </a>
           </div>
           <p className="text-xl">
             "From lush indoor greens to vibrant outdoor blooms, our plants are
